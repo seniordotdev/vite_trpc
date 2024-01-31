@@ -18,5 +18,8 @@
 		"typescript"
 	],
 	"author": "Truly Mittal <trulymittal@gmail.com> (https://www.trulymittal.com/)",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"server": "^1.0.0"
+	}
 }
