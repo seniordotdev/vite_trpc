@@ -2,6 +2,9 @@ import express, { Application, NextFunction, Request, Response } from "express";
 import * as trpcExpress from "@trpc/server/adapters/express";
 import { appRouter } from "./router";
 import cors from "cors";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app: Application = express();
 app.use(cors());
